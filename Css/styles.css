@@ -1,0 +1,194 @@
+body{
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+p{
+  color: #8f8f8f;
+  padding: 10px;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #035397;
+  color: #FDDB3E;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  width: 6.25rem;
+  height: 4.688rem;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link ,.msg ,h1,h2,h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link{
+  font-weight: 200;
+}
+
+/* Header */
+
+#title .container-fluid{
+  text-align: left;
+  padding: 2% 15% 5%;
+}
+
+.Big-Heading {
+  color: #FDDB3E;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.btn-download {
+  margin: 5% 5% 0 0;
+}
+
+.header{
+  margin-bottom: 100px;
+}
+
+.storeimg {
+  width: 25%;
+  height: 50%;
+  transform: rotate(5deg);
+  position: absolute;
+  right: 14%;
+}
+
+@media (max-width:991px){
+  #title .container-fluid{
+    text-align: center;
+  }
+  .header{
+    margin-bottom: 0;
+  }
+  .storeimg{
+    position:static;
+    transform: rotate(0);
+    width: 55%;
+    height: 55%;
+    margin-top: 50px;
+  }
+}
+
+/* Features */
+
+#features{
+  position: relative;
+}
+.feature-text{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.boxes{
+  margin: 5% 0;
+  padding: 5%;
+}
+#icons{
+  color : #5089C6;
+  padding-bottom: 20px;
+}
+#icons:hover{
+  color: #FDDB3E;
+}
+
+/* About-Us */
+
+#testimonials{
+  background-color: #5089C6;
+}
+
+.testimonial-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.Testimonialimage {
+  width: 20%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+#press{
+  background-color: #5089C6;
+  padding-bottom: 2%;
+}
+.press-logos{
+  width: 12%;
+  margin: 12px 20px 15px;
+}
+
+/* Plans */
+
+.btns{
+  width: 100%;
+}
+
+.Price-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.Plan-level{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.Plan-price{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Download */
+
+#cta{
+  background-color: #035397;
+}
+
+.msg{
+  color: #FDDB3E;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#cta .btn-download{
+  margin: 5% 2%;
+}
+
+/* Footer */
+
+#footer{
+  margin: 5%;
+}
+
+.footer-icons{
+  padding: 1%;
+  color: #000;
+}
+a{
+  text-decoration: none;
+}
